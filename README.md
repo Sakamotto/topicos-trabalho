@@ -15,8 +15,6 @@ Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 As telas de rascunho do nosso projeto, está armazenada na pasta de "Telas" nesse repositório. Pode-se acessá-las através desse [link](https://github.com/DaniloSI/topicos-trabalho/blob/master/imagens/Telas/TelaMoqup.pdf).<br>
 
-![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
-
 
 ###5	MODELO CONCEITUAL<br>
 ####5.1 NOTACAO ENTIDADE RELACIONAMENTO
