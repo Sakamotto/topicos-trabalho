@@ -1,28 +1,39 @@
 # TRABALHO 01
-Trabalho desenvolvido durante a disciplina de BD
+Trabalho desenvolvido durante a disciplina de Banco de Dados 2.
 
 #Sumário
 
 ###1	COMPONENTES<br>
-Integrantes do grupo<br>
+Integrantes do grupo:
+* Cristian da Silva Anterio
+* Danilo de Oliveira
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+
+O coordenador do curso Sistemas de Informação do IFES, tem muita dificuldade e trabalho para alocar professores e salas à disciplinas para cada período. Para apoiá-lo, este projeto tem como objetivo desenvolver um software que otimize tal processo, obedecendo à restrições de horário, laboratórios disponíveis, etc ...
+
+Com isso, espera-se que o cliente tenha menos esforço, mais precisão e os horários estejam prontos e disponíveis mais rapidamente.
+
+Utilizaremos o framework OptaPlanner desenvolvido em Java pela empresa RedHat.
+
+Este documento contém a especificação do projeto do banco de dados do Projeto Flash. <br>
 
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+O coordenador de curso de Bacharelado em Sistemas de Informação do Ifes Campus Serra enfrenta problemas para elaborar o horário de cada semestre para os três cursos (técnico e graduação), pois é uma tarefa muito complexa, na qual tem de ser levado em conta diferentes regras e restrições. Além disso, envolve a disponibilidade de professores, salas, laboratórios, alunos (restrições e questões), e mais cessões de docentes para (e da) Automação e Cefor. Atualmente existe um software que o apoia. Porém, o atual software não ajuda muito, pois não atende algumas restrições.
+
+Para alocar uma disciplina, o professor deve ter disponibilidade para atendê-la. A carga horária de cada professor não pode exceder um total de quarenta horas semanais. Cada professor precisa ter um intervalo mínimo de onze horas entre um determinado dia e o dia seguinte. Os professores também não devem ter um intervalo de mais de três horas em um dia. É desejável que os professores que moram mais perto do Campus, sejam alocados para os primeiros horários de aula do dia. É desejável que professores que moram longe, não estejam alocados a partir das 15 horas.
+
+É desejável que as disciplinas e suas respectivas disciplinas que são pré-requisitos, estejam definidas no mesmo horário. Por exemplo, Cálculo 1 e Cálculo 2. As aulas da graduação devem terminar no máximo às 13:20.
+
+Os setores administrativos precisam de horários para cuidar dos espaços, incluindo as salas e laboratórios. Tem que ser disponibilizado um laboratório para os alunos estudarem e um laboratório exclusivo para TCC e Projeto Integrador. É necessário que haja horários vagos para que um professor possa usar sempre que preciso (conforme dito em um recado no facebook).
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
+As telas de rascunho do nosso projeto, está armazenada na pasta de "Telas" nesse repositório. Pode-se acessá-las através desse [link](https://github.com/DaniloSI/topicos-trabalho/blob/master/imagens/Telas/TelaMoqup.pdf).<br>
 
 
 ###5	MODELO CONCEITUAL<br>
 ####5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/DaniloSI/topicos-trabalho/blob/master/imagens/Conceitual_brModelo_v04.jpg "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
 
