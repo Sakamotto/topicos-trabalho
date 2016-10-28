@@ -13,9 +13,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
+As telas de rascunho do nosso projeto, está armazenada na pasta de "Telas" nesse repositório. Pode-se acessá-las através desse [link](https://github.com/DaniloSI/topicos-trabalho/blob/master/imagens/Telas/TelaMoqup.pdf).<br>
 
 ![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
 
