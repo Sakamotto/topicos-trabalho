@@ -55,6 +55,17 @@ b) Optamos por utilizar essa tabela ao invés de utilizar um campo tipo, visando
  * NOME: Campo que armazena o nome da disciplina. <br>
  * CARGA_HORARIA: Campo que armazena a quantidade total de hora da disciplina. <br>
  * PERIODO: Campo que armazena o número do período que a disciplina pertence. <br>
+
+* CURSO: Tabela que armazena as informaçõe relativas ao Curso. <br>
+ * NOME: Nome do curso. <br>
+ * REGIME: Regime do curso, podendo ser Créditos ou Seriado. <br>
+ * DURACAO: Duração em horas do curso. <br>
+ * SIGLA: Sigla do curso (Ex.: Bacharelado em Sistemas de Informação é  BSI).
+
+* REQUISITO_PERIODO: Tabela que armazena a informação do período que é requisito para uma disciplina (Ex.: AnteProjeto possui como pré-requisito o quarto período completo). <br>
+ * PERIODO: Campo que armazena o número do período.
+
+* ALOCACAO: Tabela que armazena informações relativas à alocação que é composta por um espaço, uma disciplina, um semestre, um horário, um professor e um dia da semana.
     
     
 
