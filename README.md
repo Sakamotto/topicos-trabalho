@@ -51,10 +51,10 @@ b) Optamos por utilizar essa tabela ao invés de utilizar um campo tipo, visando
 
 ####5.3 DESCRIÇÃO DOS DADOS 
    
-        DISCIPLINA: Tabela que armazena as informações relativas à Disciplina.
-        NOME: Campo que armazena o nome da disciplina.
-        CARGA_HORARIA: Campo que armazena a quantidade total de hora da disciplina.
-        PERIODO: Campo que armazena o número do período que a disciplina pertence.
+        DISCIPLINA: Tabela que armazena as informações relativas à Disciplina. <br>
+        NOME: Campo que armazena o nome da disciplina. <br>
+        CARGA_HORARIA: Campo que armazena a quantidade total de hora da disciplina. <br>
+        PERIODO: Campo que armazena o número do período que a disciplina pertence. <br>
     
     
 
