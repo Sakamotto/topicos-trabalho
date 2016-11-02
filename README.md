@@ -38,12 +38,13 @@ As telas de rascunho do nosso projeto, está armazenada na pasta de "Telas" ness
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
 
 ####5.3 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    * Tabela associativa SubArea:
+        a) Campos area_conhecimento_id e possui_area_conhecimento_id: Em nosso projeto, optamos por utilizar essa tabela com esses campos, visando a normalização.
+    
+    * Tabela TipoEspaco:
+        a) Campo descricao: Optamos por atribuir esse campo na tabela para definir o tipo do espaço físico na qual uma disciplina será lecionada.
+        b) Optamos por utilizar essa tabela ao invés de utilizar um campo tipo, visando a normalização e também para permitir cadastros de Tipo de Espaço se necessário futuramente.
 
 ####5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
