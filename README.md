@@ -50,11 +50,11 @@ a) Campo descricao: Optamos por atribuir esse campo na tabela para definir o tip
 b) Optamos por utilizar essa tabela ao invés de utilizar um campo tipo, visando a normalização e também para permitir cadastros de Tipo de Espaço se necessário futuramente.
 
 ####5.3 DESCRIÇÃO DOS DADOS 
-    
-    DISCIPLINA: Tabela que armazena as informações relativas à Disciplina.
-    NOME: Campo que armazena o nome da disciplina.
-    CARGA_HORARIA: Campo que armazena a quantidade total de hora da disciplina.
-    PERIODO: Campo que armazena o número do período que a disciplina pertence.
+   
+    * DISCIPLINA: Tabela que armazena as informações relativas à Disciplina.
+        * NOME: Campo que armazena o nome da disciplina.
+        * CARGA_HORARIA: Campo que armazena a quantidade total de hora da disciplina.
+        * PERIODO: Campo que armazena o número do período que a disciplina pertence.
     
     
 
