@@ -53,6 +53,9 @@ As telas de rascunho do nosso projeto, está armazenada na pasta de "Telas" ness
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 ###6	MODELO LÓGICO<br>
+
+![Modelo Lógico do Banco de Dados](https://github.com/DaniloSI/topicos-trabalho/blob/master/imagens/Logico_brModelo_v04.jpg)
+
 ###7	MODELO FÍSICO<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
