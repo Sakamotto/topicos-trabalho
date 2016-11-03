@@ -20,41 +20,11 @@ As telas de rascunho do nosso projeto, está armazenada na pasta de "Telas" ness
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de Projeto)
 
-####5.3 DECISÕES DE PROJETO
 
-Tabela associativa SubArea:
-    
-a) Campos area_conhecimento_id e possui_area_conhecimento_id: Em nosso projeto, optamos por utilizar essa tabela com esses campos, visando a normalização.
-
-Tabela TipoEspaco:
-
-a) Campo descricao: Optamos por atribuir esse campo na tabela para definir o tipo do espaço físico na qual uma disciplina será lecionada.
-
-b) Optamos por utilizar essa tabela ao invés de utilizar um campo tipo, visando a normalização e também para permitir cadastros de Tipo de Espaço se necessário futuramente.
-
-####5.3 DESCRIÇÃO DOS DADOS 
-
-* DISCIPLINA: Tabela que armazena as informações relativas à Disciplina. <br>
- * NOME: Campo que armazena o nome da disciplina. <br>
- * CARGA_HORARIA: Campo que armazena a quantidade total de hora da disciplina. <br>
- * PERIODO: Campo que armazena o número do período que a disciplina pertence. <br>
-
-* CURSO: Tabela que armazena as informaçõe relativas ao Curso. <br>
- * NOME: Nome do curso. <br>
- * REGIME: Regime do curso, podendo ser Créditos ou Seriado. <br>
- * DURACAO: Duração em horas do curso. <br>
- * SIGLA: Sigla do curso (Ex.: Bacharelado em Sistemas de Informação é  BSI).
-
-* REQUISITO_PERIODO: Tabela que armazena a informação do período que é requisito para uma disciplina (Ex.: AnteProjeto possui como pré-requisito o quarto período completo). <br>
- * PERIODO: Campo que armazena o número do período.
-
-* ALOCACAO: Tabela que armazena informações relativas à alocação que é composta por um espaço, uma disciplina, um semestre, um horário, um professor e um dia da semana.
     
     
 
 ###6	MODELO LÓGICO<br>
-
-![Modelo Lógico do Banco de Dados](https://github.com/DaniloSI/topicos-trabalho/blob/master/imagens/Logico_brModelo_v04.jpg)
 
 ###7	MODELO FÍSICO<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
