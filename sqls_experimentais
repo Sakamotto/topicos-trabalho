@@ -1,0 +1,30 @@
+﻿SET SCHEMA 'flash';
+
+DROP TABLE teste2;
+CREATE TABLE teste2 AS(
+	SELECT d.nome, d.disciplina_id, d.carga_horaria, ac.descricao FROM disciplina d INNER JOIN area_conhecimento ac ON(d.area_conhecimento_id = ac.area_conhecimento_id)
+);
+
+SELECT * FROM teste2;
+
+CREATE TABLE teste3 AS
+(
+	SELECT p.nome AS professor_nome, p.data_nascimento, p.matricula, p.professor_id, d.nome AS disciplina_nome, ac.descricao
+	FROM professor p INNER JOIN professor_disciplina pd ON(p.professor_id = pd.professor_id)
+	INNER JOIN disciplina d ON(pd.disciplina_id = d.disciplina_id)
+	INNER JOIN area_conhecimento ac ON(d.area_conhecimento_id = ac.area_conhecimento_id)
+);
+
+DROP TABLE professores_manha;
+CREATE TABLE professores_manha AS
+    SELECT DISTINCT professor.nome, h.hora_inicio, h.hora_fim FROM professor
+    INNER JOIN professor_disciplina pd ON(professor.professor_id = pd.professor_id)
+    INNER JOIN alocacao ON(alocacao.professor_disciplina_id = pd.professor_id)
+    INNER JOIN horario h ON(h.horario_id = alocacao.horario_id)
+
+SELECT hora_inicio, hora_fim FROM professores_manha
+
+
+
+
+
